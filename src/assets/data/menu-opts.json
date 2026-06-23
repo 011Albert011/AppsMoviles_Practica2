@@ -73,5 +73,45 @@
     "icon": "browsers",
     "name": "Modal",
     "redirectTo": "/modal"
+  },
+  {
+    "icon": "chatbubbles",
+    "name": "Popover",
+    "redirectTo": "/popover"
+  },
+  {
+    "icon": "arrow-round-down",
+    "name": "Refresher",
+    "redirectTo": "/refresher"
+  },
+  {
+    "icon": "search",
+    "name": "Searchbar",
+    "redirectTo": "/searchbar"
+  },
+  {
+    "icon": "copy",
+    "name": "Segment",
+    "redirectTo": "/segment"
+  },
+  {
+    "icon": "albums",
+    "name": "Slides",
+    "redirectTo": "/slides"
+  },
+  {
+    "icon": "logo-buffer",
+    "name": "Tabs",
+    "redirectTo": "/tabs/account"
+  },
+  {
+    "icon": "chatboxes",
+    "name": "Toast",
+    "redirectTo": "/toast"
+  },
+  {
+    "icon": "switch",
+    "name": "Toggle",
+    "redirectTo": "/toggle"
   }
 ]

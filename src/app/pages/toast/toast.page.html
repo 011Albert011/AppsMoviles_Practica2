@@ -1,0 +1,20 @@
+<app-header title="Toast"></app-header>
+
+<ion-content padding>
+  <ion-button (click)="showToast('Toast showed successfully', 1500, 'top')" expand="full">
+    Show toast top
+  </ion-button>
+  <ion-button (click)="showToast('Toast showed successfully', 1500, 'middle')" expand="full">
+    Show toast middle
+  </ion-button>
+  <ion-button (click)="showToast('Toast showed successfully', 1500, 'bottom')" expand="full">
+    Show toast bottom
+  </ion-button>
+  <ion-button (click)="showToast('Quam debitis id voluptatum voluptatem magnam beatae.Libero porro cumque facere at velit iste nam. Non et cum est vitae.', 1500, 'bottom')" 
+              expand="full">
+    Show long toast
+  </ion-button>
+  <ion-button (click)="showToast('Toast showed successfully', 5000, 'bottom', true)" expand="full">
+    Show toast with close button
+  </ion-button>
+</ion-content>
